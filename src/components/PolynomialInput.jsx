@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./PolynomialInput.css"; // Import your CSS styles
+import "./PolynomialInput.css";
 
 export default function PolynomialInput({ onUpdate }) {
   const [terms, setTerms] = useState([
