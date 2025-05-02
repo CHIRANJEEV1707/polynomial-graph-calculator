@@ -1,4 +1,3 @@
-/* index.css */
 html,
 body,
 #root {
@@ -10,13 +9,11 @@ body,
   font-family: Arial, sans-serif;
 }
 
-
-/* Center everything inside the root */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f3f4f6; /* Light gray like Tailwind's bg-gray-100 */
+  background-color: #f3f4f6;
   font-family: Arial, sans-serif;
 }
 
