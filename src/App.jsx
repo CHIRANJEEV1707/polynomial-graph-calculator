@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PolynomialInput from "./components/PolynomialInput";
 import GraphPlot from "./components/GraphPlot";
-import "./App.css"; // Import your custom CSS
+import "./App.css";
 
 function App() {
   const [terms, setTerms] = useState([]);
