@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px; /* Reduce space between child components */
+}
+
+.app-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* Reduce bottom space */
+  text-align: center;
+}

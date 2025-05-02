@@ -1,0 +1,104 @@
+.polynomial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 20px;
+  }
+  
+  
+  .polynomial-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .expression {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .term {
+    display: flex;
+    align-items: center;
+    background: #eee;
+    padding: 6px 10px;
+    border-radius: 8px;
+  }
+  
+  .input {
+    width: 50px;
+    padding: 4px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 4px;
+  }
+  
+  .power {
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .plus {
+    margin-left: 8px;
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .remove-btn {
+    font-size: 14px;
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 4px;
+  }
+  
+  .add-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .polynomial-box {
+    width: 100%;
+    max-width: 768px;
+    background: white;
+    padding: 24px;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 8px; /* Reduced from Tailwind's mb-8 (~32px) */
+  }
+  
+  

@@ -1,0 +1,22 @@
+/* index.css */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Center everything inside the root */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6; /* Light gray like Tailwind's bg-gray-100 */
+  font-family: Arial, sans-serif;
+}
+
